@@ -33,12 +33,15 @@ body {
 }
 
 .banner p {
-	color: white;
+	color: #B4CE0D;
 	position: relative;
 	font-size: 1.1em;
 }
 
-#botoncito  {
+#botoncito  {	
+	width: 250px;
+	height: 40px;
+	border-radius: 10px;	
 	background-color: #00727F;
 	color: white;
 	font-family: Mukta;
