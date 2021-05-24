@@ -35,21 +35,21 @@ body {
 .banner p {
 	color: white;
 	position: relative;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 #botoncito  {
 	background-color: #00727F;
 	color: white;
 	font-family: Mukta;
-	font-size: 1em;
-	font-weight: 600;
+	font-size: 1.2em;
+	font-weight: 800;
 }
 
 .container {
 	width: 900px;
   	margin: 60px auto;
-	font-size: 0.8em;
+	font-size: 0.9em;
     font-weight: 300;
     text-align: justify;
     color: ##521313;
@@ -70,7 +70,7 @@ body {
 
 .recetas p {
     color: black;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .recetas ul {
@@ -105,7 +105,7 @@ h3 {
 }
 
 .footer {
-	font-size: 12px;
+	font-size: 0.8em;
 	text-align: center;
 	background-color: grey;
 	color: white;
