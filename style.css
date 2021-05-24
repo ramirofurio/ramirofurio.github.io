@@ -48,6 +48,8 @@ body {
 }
 
 .container {
+	width: 1000px;
+  	margin: 60px auto;
 	font-size: 0.8em;
     font-weight: 300;
     text-align: justify;
@@ -78,14 +80,18 @@ body {
 }
 
 .imagen {
+	width: 300px;
 	background-color: white;
 	padding: 4px;
+	margin: 8px;
 	box-shadow: 0 0 8px #042D57;
 	border-radius: 25px;
 }
 
 .imagen img {
-	width: 400px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
 	border-radius: 25px;
 }
 
