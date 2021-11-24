@@ -14,20 +14,20 @@ canvas.width = canvas.height = 600;
 ctx.fillRect(0, 0, 600, 600);
 
 
-canvas.onmousedown = function(e) {
+canvas.ontouchstart = function(e) {
 	painting = true;
 	canvas.style.cursor = "grabbing";
 	lastX = e.pageX - this.offsetLeft;
 	lastY = e.pageY - this.offsetTop;
 };
 
-canvas.onmouseup = function() {
+canvas.ontouchend = function() {
 	painting = false;
 	canvas.style.cursor = "grab";
 
 }
 
-canvas.onmousemove = function(e) {
+canvas.ontouchmove = function(e) {
 	if (painting) {
 		mouseX = e.pageX - this.offsetLeft;
 		mouseY = e.pageY - this.offsetTop;
