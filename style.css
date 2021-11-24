@@ -1,119 +1,14 @@
-body {
-    font-family: Mukta;
-    color: #070608;
-    font-size: 18px;
-    margin: 0;
-    }
-
-.banner {
-    background-image: url(flia3.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 80px 0;    
-    font-weight: 700;
-    text-align: center;
-    color: black;
-    position: relative;
-}
-
-.banner:before {
-	content:'';
+@charset "UTF-8";
+#canvas {
 	position: absolute;
-    top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.5);
 }
 
-.banner h1 {
-	color: white;
-	position: relative;
-	font-size: 2em;
-}
-
-.banner p {
-	color: #B4CE0D;
-	position: relative;
-	font-size: 1.1em;
-}
-
-#botoncito  {	
-	width: 250px;
-	height: 40px;
-	border-radius: 10px;	
-	background-color: #00727F;
-	color: white;
-	font-family: Mukta;
-	font-size: 1.2em;
-	font-weight: 800;
-}
-
-.container {
-	width: 900px;
-  	margin: 60px auto;
-	font-size: 0.9em;
-    font-weight: 300;
-    text-align: justify;
-    color: ##521313;
-}
-
-.container h2 {
-	text-align: center;
-	font-size: 2.1em;
-	color: #00727F;
-}
-
- .recetas {
-    display: flex;
-	justify-content: space-evenly;
-	gap: 16px;
-	color: black;
-}
-
-.recetas p {
-    color: black;
-    font-size: 1.2em;
-}
-
-.recetas ul {
-    color: black;
-    font-size: 1.2em;
-}
-
-.imagen {
-	width: 300px;
-	background-color: white;
-	padding: 4px;
-	margin: 8px;
-	box-shadow: 0 0 8px #042D57;
-	border-radius: 25px;
-}
-
-.imagen img {
-	width: 100%;
-	object-fit: cover;
-	object-position: center;
-	border-radius: 25px;
+​ /* Para que no cuente arrastrar */
+      img {
+	user-select: none;
 }
 
 h1 {
-	color: #2006CA;
-}
-
-h3 {
-	text-align: center;
-	color: #08074F;
-	font-size: 1.5em;
-}
-
-.footer {
-	font-size: 0.8em;
-	text-align: center;
-	background-color: grey;
-	color: white;
-}
-
-a {
-	text-decoration: none;
+	position: center;
+	color: #8986B6;
 }
