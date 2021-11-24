@@ -15,6 +15,7 @@ ctx.fillRect(0, 0, 600, 600);
 
 
 canvas.touchstart = function(e) {
+	e.preventDefault();
 	painting = true;
 	canvas.style.cursor = "grabbing";
 	lastX = e.pageX - this.offsetLeft;
@@ -22,12 +23,14 @@ canvas.touchstart = function(e) {
 };
 
 canvas.touchend = function() {
+	e.preventDefault();
 	painting = false;
 	canvas.style.cursor = "grab";
 
 }
 
 canvas.touchmove = function(e) {
+	e.preventDefault();
 	if (painting) {
 		mouseX = e.pageX - this.offsetLeft;
 		mouseY = e.pageY - this.offsetTop;
